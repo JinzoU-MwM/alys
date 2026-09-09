@@ -1,0 +1,65 @@
+# === CREDENTIALS & SENSITIVE CONFIG (CRITICAL: NEVER COMMIT) ===
+config.json
+*.secret.json
+akun.txt
+accounts.txt
+keys.txt
+*.key
+*.token
+
+# === LOCAL STATE & SESSIONS ===
+state/
+*.session
+*.cookies
+
+# === LOGS & OUTPUTS ===
+*.log
+output/
+downloads/
+
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === VIRTUAL ENVIRONMENTS ===
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# === BROWSER & CAMOUFOX CACHE ===
+.camoufox/
+debug_*.png
+debug_*.html
+*.har
+
+# === IDE & OS ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

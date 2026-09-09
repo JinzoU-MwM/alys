@@ -1,0 +1,20 @@
+{
+  "9router": {
+    "base_url": "https://9router.example.com/v1",
+    "api_key": "sk_9router_key",
+    "dashboard_url": "https://9router.example.com",
+    "password": "YOUR_DASHBOARD_PASSWORD",
+    "provider_id": "openai-compatible-chat-...",
+    "node_prefix": "ali",
+    "model_prefix": "ali",
+    "auto_push": true
+  },
+  "tmpmail": {
+    "url": "https://tmpmail.example.workers.dev",
+    "token": "YOUR_TMPMAIL_WORKER_TOKEN_HERE",
+    "domain": "mail.example.com",
+    "user_agent": "tmpmail-client/1.0",
+    "poll_interval": 5,
+    "timeout": 120
+  }
+}

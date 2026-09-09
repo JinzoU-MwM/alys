@@ -1,0 +1,7 @@
+# Template daftar akun untuk alys.py (satu akun per baris)
+# Format separator yang didukung: titik dua (:), pipe (|), titik koma (;), koma (,), atau TAB
+# Format tanpa password akan menggunakan refresh_token yang tersimpan di state
+
+user1@example.com:PasswordRahasia123!
+user2@example.com|PasswordLain456!
+# user3@example.com

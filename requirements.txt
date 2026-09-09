@@ -1,0 +1,5 @@
+# Core alys.py runs on Python standard library (>=3.10)
+# Optional dependencies:
+
+# Required only for `python3 alys.py glogin` (anti-fingerprint browser for Google OAuth)
+camoufox[geoip]>=0.4.0
